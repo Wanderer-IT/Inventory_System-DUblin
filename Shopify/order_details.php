@@ -37,7 +37,7 @@ $items = $stmtItems->get_result();
     <div class="nav-links">
       <a href="index.php">Home</a>
       <a href="product.php">Shop</a>
-      <a href="checkout.php">Check Out</a>
+      <a href="cheakout.php">Check Out</a>
       <a href="view_orders.php">View Orders</a>
     </div>
   </nav>
@@ -71,3 +71,4 @@ $items = $stmtItems->get_result();
 
 </body>
 </html>
+
