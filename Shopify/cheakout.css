@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+body {
+  background: #f4f6f9;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.nav-logo {
+  flex: 1;
+}
+
+.nav-logo h1 {
+  font-size: 22px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-links a {
+  color: rgb(53, 53, 53);
+  text-decoration: none;
+
+  margin: 0 15px;
+
+  font-size: 18px;
+}
+
+
+.checkout-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.checkout-table th, .checkout-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.checkout-table th {
+  background: #007bff;
+  color: white;
+}
+
+.checkout-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.btn-delete {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background: #c82333;
+}
+
+.btn-checkout {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-checkout:hover {
+  background: #218838;
+}
